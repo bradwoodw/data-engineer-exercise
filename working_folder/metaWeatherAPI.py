@@ -1,10 +1,3 @@
-import requests
-
-locations = ['london', 'madrid', 'moscow']
-location_ids = []
-city_outfile = "c:\\temp\\city.csv"
-weather_outfile = "c:\\temp\\weather.csv"
-
 """ 
 Metaweather API script
 
@@ -16,6 +9,12 @@ Created by: Brad
 Created on: 09/07/2018
 """
 
+import requests
+
+locations = ['london', 'madrid', 'moscow']
+location_ids = []
+city_outfile = "c:\\temp\\city.csv"
+weather_outfile = "c:\\temp\\weather.csv"
 
 # City API Loop, write city info to file,
 # store ID in list for weather call
